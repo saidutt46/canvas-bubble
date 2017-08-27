@@ -8,26 +8,24 @@
     <title>Canvas</title>
     <style type="text/css">
         body {
-            position: relative;
             overflow: hidden;
+            position: relative;
         }
         
         canvas {
-            position: relative;
             width: 100%;
             height: 100%;
         }
         
         .main {
-            padding: 50px 20px;
             position: absolute;
+            z-index: 1;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             background: rgba(247, 102, 62, 0.91);
-            color: Black;
-            font-family: monospace;
-            z-index: 1;
+            padding: 50px 20px;
+            font-family: sans-serif;
         }
         
         .main h1 {
@@ -36,22 +34,21 @@
         
         .main h3 {
             font-size: 30px;
-            text-align: right;
-            color: whitesmoke;
         }
         
-        .main p {
+        .main h4 {
             font-size: 24px;
-            color: gray;
+            text-align: right;
         }
     </style>
 </head>
 
 <body>
     <div class="main">
-        <h1>Canvas Particles - Bubbles</h1>
-        <h3>By G.v Sai Dutt</h3>
-        <p>Interact with the particles on the screen with mouse</p>
+        <h1>A Html5 Canvas Particles - Bubbles</h1>
+        <h3>Interact with the particles on the screen with mouse movement</h3>
+        <h3>Made using canvas javascript</h3>
+        <h4>Made by G.V. Sai Dutt</h4>
     </div>
     <canvas></canvas>
     <script src="canvas.js" type="text/javascript"></script>
